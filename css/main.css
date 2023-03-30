@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  margin-top: 0px;
+}
+
+:root {
+  /* ### Primary */
+
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+
+  /* ### Neutral */
+
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  /* fonts */
+  --weight-light: 400;
+  --weight-heavy: 600;
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-size: contain;
+  background-color: var(--light-gray);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+/* GROSOR */
+.fw-light {
+  font-weight: var(--weight-light);
+}
+
+.fw-heavy {
+  font-weight: var(--weight-heavy);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  /* body{
+    background-image: url(../images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  } */
+}
