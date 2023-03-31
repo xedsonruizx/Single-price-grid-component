@@ -45,6 +45,17 @@ body {
   height: 100vh;
 }
 
+.attribution {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(150 150 150 / 15%);
+  padding: 20px;
+  border-top-right-radius: 10px;
+  /* color: white; */
+}
+
 @media (min-width: 320px) and (max-width: 376px) {
   /* body{
     background-image: url(../images/bg-mobile.svg);
